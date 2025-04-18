@@ -1,0 +1,68 @@
+.header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #189CAB;
+      color: #FFF;
+      padding: 10px 20px;
+      margin: 0 10px 60px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+      width: 100%;
+}
+
+.header a{
+      font-size: 1.5rem;
+      font-weight: 600;
+}
+
+.header div{
+      font-size: 1.3rem;
+      background: #FFF;
+      text-align: center;
+      color: #292929;
+      height: 35px;
+      width: 35px;
+      padding: 2px;
+      position: relative;
+      border-radius: 9px;
+      -webkit-border-radius: 9px;
+      -moz-border-radius: 9px;
+      -ms-border-radius: 9px;
+      -o-border-radius: 9px;
+}
+
+.header span{
+      font-size: 0.8rem;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      background: #000;
+      color: #FFF !important;
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+
+.footer{
+      text-align: center;
+      text-transform: capitalize;
+      background: #189CAB;
+      padding: 20px;
+      font-size: 1.2rem;
+      margin: 10px;
+      margin-top: 80px;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+}

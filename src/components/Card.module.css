@@ -1,0 +1,90 @@
+.card{
+      width: 270px;
+      margin: 10px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-end;
+      background: #FFF;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -ms-border-radius: 20px;
+      -o-border-radius: 20px;
+      transition: 0.3s ease;
+      -webkit-transition: 0.3s ease;
+      -moz-transition: 0.3s ease;
+      -ms-transition: 0.3s ease;
+      -o-transition: 0.3s ease;
+}
+.card:hover{
+      transform: scale(1.05);
+      -webkit-transform: scale(1.05);
+      -moz-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      -o-transform: scale(1.05);
+}
+
+.card img{
+      width: 230px;
+      height: 230px;
+      object-fit: contain;
+      margin: 0 auto;
+      padding: 20px;
+      margin-bottom: 20px;
+      background: #FFF;
+}
+
+.card h3{
+      color: #000;
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin: 10px 0 30px;
+}
+
+.card p{
+      color: #6d7275;
+}
+
+.actions{
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+
+.actions a{
+      font-size: 1.5rem;
+      height: 25px;
+      color: #F95F62;
+      cursor: pointer;
+}
+
+.actions div{
+      display: flex;
+      align-items: center;
+}
+
+.actions div span{
+      width: 20px;
+      text-align: center;
+      margin: 0 10px;
+}
+
+.actions div button{
+      background: #FFCB05;
+      color: #000;
+      border: none;
+      font-size: 1.4rem;
+      height: 2rem;
+      width: 2rem;
+      line-height: 2rem;
+      padding: 0.2rem;
+      cursor: pointer;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -ms-border-radius: 8px;
+      -o-border-radius: 8px;
+}

@@ -1,0 +1,45 @@
+@font-face {
+  font-family: Dosis;
+  src: url(./assets/Fonts/Dosis-Regular.ttf);
+}
+:root {
+  font-family: Dosis;
+  line-height: 1.5;
+}
+*, *::before, *::after{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+  transition: 0.3s ease;
+  -webkit-transition: 0.3s ease;
+  -moz-transition: 0.3s ease;
+  -ms-transition: 0.3s ease;
+  -o-transition: 0.3s ease;
+}
+body {
+  margin: auto;
+  place-items: center;
+  max-width: 1200px;
+  min-height: 100vh;
+  padding: 10px;
+  background: #292929;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+a{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+img{
+  pointer-events: none;
+}
